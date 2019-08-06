@@ -1,5 +1,18 @@
 # AngularTourOfHeroes
 
+In this top section, bami has added stuff:
+
+## Branches:
+
+master: This is based on https://angular.io/tutorial/toh-pt2#styles
+
+news_api: There are changes based on https://www.techiediaries.com/angular-tutorial-example-rest-api-httpclient-get-ngfor/
+
+
+
+
+## Now the Standard Stuff:
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
 ## Development server

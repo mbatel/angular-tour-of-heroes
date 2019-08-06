@@ -5,14 +5,19 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { FormsModule } from '@angular/forms'; // NgModel lives here
 
+import { HttpClientModule } from '@angular/common/http';
+import { NewsComponent } from './news/news.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesComponent
+    HeroesComponent,
+    NewsComponent
   ],
   imports: [
   BrowserModule,
-  FormsModule
+  FormsModule,
+  HttpClientModule
 	],
   providers: [],
   bootstrap: [AppComponent]
